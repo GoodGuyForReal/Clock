@@ -1,0 +1,38 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(6, 6, 6);
+}
+
+.totalamount {
+    display: flex;
+}
+
+.Clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Clock_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time {
+    font-weight: 800;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#day_show {
+    font-size: 24px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
