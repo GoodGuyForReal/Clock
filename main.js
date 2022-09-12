@@ -13,7 +13,7 @@ function Updateclock() {
     let saat = time.getHours();
     let dakika = time.getMinutes();
     let saniye = time.getSeconds();
-    let twelve = 12 - saat;
+    let twelve = saat - 12;
 
 
 
